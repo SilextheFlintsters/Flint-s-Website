@@ -1,0 +1,113 @@
+h1{
+    text-align: center;
+     font-family: 'myFont3', Arial, sans-serif; /* Apply the custom font */
+    color: red;
+    text-shadow: 2px 2px rgb(0, 0, 0) 
+
+}
+h1.ex2:hover, h1.ex2:active{
+    font-size: 150%;
+}
+@font-face {
+  font-family: myFont; /* set name */
+  src: url(font4.otf); /* url of the font */
+}
+@font-face {
+  font-family: myFont2; /* set name */
+  font-size: 20px;
+  src: url(font2.otf); /* url of the font */
+}
+@font-face {
+  font-family: myFont3; /* set name */
+  font-size: 20px;
+  src: url(font3.otf); /* url of the font */
+}
+
+
+nav a{
+    text-decoration: none;
+    font-family: 'myFont2', Helvetica, sans-serif;
+    color:rgb(255, 0, 0);
+    padding: 10px 6px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    border-style: solid;
+  border-color: rgb(255, 0, 0); /* red */
+    font-size: 20px;
+    transition: 0.2s;
+    text-align: center;
+    float: left;
+    margin: 10px;
+    & :hover{
+        color:rgb(255, 255, 255)
+    }
+
+    
+}
+nav a:hover{
+    font-size: 120%;
+    color:rgb(255, 255, 255)
+}
+header{
+    background-image: url("godsees3.png"); /* Specify the image path */
+        background-repeat: no-repeat;           /* Prevents the image from tiling */
+        background-size: cover;                 /* Scales the image to cover the entire page */
+        background-attachment: fixed;
+    text-align: left;
+    position: relative;
+    float: left;   
+         padding: 50px 50px;
+         border-radius: 5px;
+         box-shadow: red;
+         border: 2px solid rgb(255, 0, 0);
+        outline: #000000 solid 10px;
+}
+header img.tittle{
+    padding:20px 60px;
+    height: 350px;
+    position: relative; /* Establishes a positioning context for the image */
+    float: left;
+    margin-right: 30px;    /* Vertically centers */
+
+
+}
+body{
+     background-image: url("backdrop.png"); /* Specify the image path */
+        background-repeat: no-repeat;           /* Prevents the image from tiling */
+        background-size: cover;                 /* Scales the image to cover the entire page */
+         background-attachment: fixed;
+}
+
+body h1{
+    color: black;
+    font-size: 50px;
+    padding: 5px 3px;
+    text-align: center;
+    background-color: red
+}
+h2{
+    color: black;
+    background-color:red;
+    font-family: 'myFont', Helvetica, sans-serif;
+    font-size: 30px;
+     padding: 5px 3px;
+     text-align: center;
+}
+nav a img.him{
+    position: relative;
+    justify-content: center;
+     align-items: center;
+}
+nav a img.wine{
+    position: relative;
+     justify-content: center;
+     align-items: center;
+}
+
+body img.tittle{
+    padding: 10px 40%;
+    width: 300px;
+    height: 300px;
+}
+
+
