@@ -112,6 +112,7 @@ body img.tittle{
 p{
     font-family: 'myFont', Helvetica, sans-serif;
      color: black;
+     background-color: red;
      font-size: 20px;
      padding: 5px 3px;
      text-align: center;
