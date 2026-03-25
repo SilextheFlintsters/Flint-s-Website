@@ -91,7 +91,15 @@ h2{
     font-family: 'myFont', Helvetica, sans-serif;
     font-size: 30px;
      padding: 5px 3px;
-     text-align: center;
+     text-align:justify
+}
+h2.title{
+        color: black;
+    background-color:red;
+    font-family: 'myFont', Helvetica, sans-serif;
+    font-size: 30px;
+     padding: 5px 3px;
+     text-align:center
 }
 nav a img.him{
     position: relative;
@@ -115,8 +123,20 @@ p{
      background-color: red;
      font-size: 20px;
      padding: 5px 3px;
-     text-align: center;
+     text-align: justify;   font-family: 'myFont', Helvetica, sans-serif;
+     color: black;
+     background-color: red;
+     font-size: 20px;
+     padding: 5px 3px;
+     text-align: justify;
 
 }
-
+ol{
+   font-family: 'myFont', Helvetica, sans-serif;
+     color: black;
+     background-color: red;
+     font-size: 20px;
+     padding: 5px 3px;
+     text-align: justify;
+}
 
