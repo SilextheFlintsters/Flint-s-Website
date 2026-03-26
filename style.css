@@ -54,13 +54,14 @@ header{
         background-size: cover;                 /* Scales the image to cover the entire page */
         background-attachment: fixed;
     text-align: left;
-    position: relative;
+    position: fixed;
     float: left;   
          padding: 50px 50px;
          border-radius: 5px;
          box-shadow: red;
          border: 2px solid rgb(255, 0, 0);
         outline: #000000 solid 10px;
+    
 }
 header img.tittle{
     padding:20px 60px;
